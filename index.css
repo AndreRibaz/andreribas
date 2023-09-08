@@ -11,7 +11,7 @@
 
 body {
   font-size: 100%;
-  background-color: whitesmoke;
+  background-color: rgb(255, 255, 255);
 }    
 
 
@@ -58,7 +58,7 @@ h3,h4 {
   font-weight: bold;
   align-items: center;
   margin-top: 20px;
-  margin: 0; /* Remove margens padrão para o h1 */
+  margin: 0; 
 
 }
 
@@ -112,7 +112,7 @@ h3,h4 {
     font-size: 50px;
   }
   
-  /* Style the top navigation bar */
+
   .topnav {
     overflow: hidden;
     background-color: #333;
@@ -127,9 +127,7 @@ h3,h4 {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
-  /* Create two unequal columns that floats next to each other */
-  /* Left column */
+
   .leftcolumn {   
     float: left;
     width: 60%;
@@ -142,9 +140,7 @@ h3,h4 {
     padding-left: 0px;
   }
   
-  /* Fake image */
 
-  /* Add a card effect for articles */
   .card {
     padding: 10px;
     margin-top: 30px;
@@ -178,18 +174,18 @@ h3,h4 {
 
   .info{
     margin-top: 5px;
-    font-family: 'Sarala', sans-serif;
+    font-family: 'Sarala', Arial, sans-serif;
     font-size: 17px;
     color: #3c4147;
   }
 
   .info i.fa-map-marker-alt {
-    color: #778492; /* Defina a cor desejada */
+    color: #778492; 
   }
 
   /* Estilo para os ícones de email */
   .info i.fa-envelope {
-    color: #778492; /* Defina a cor desejada */
+    color: #778492; 
   }
 
   .form{
@@ -206,10 +202,22 @@ h3,h4 {
   .desc{
     font-size: 17px;
     margin-bottom: 10px;
-    font-family: 'Sarala', sans-serif;
+    font-family: 'Sarala', Arial, sans-serif;
     color: #3c4147;
 
   }
+
+  a.more-link{
+    margin-right: 50px;
+    font-size: 15px;
+    position: relative;
+    top: -2px;
+    color: #ff7300;
+    font-family: 'Sarala', sans-serif;
+    /* Adicione padding superior e inferior para ajustar a altura do elemento */
+    vertical-align: middle;
+  }
+
   .cor-font{
     color:  #616c77;
   }
